@@ -1,4 +1,4 @@
-# CampusTest_Cucumber_Team1
+# Campus UI BDD Tests
 
 ![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
@@ -21,7 +21,7 @@
 ---
 
 ## About the Project
-**CampusTest_Cucumber_Team1** is an automated test suite designed to test the **Campus** application on `test.mersys.io`.
+**Campus UI BDD Tests** is an automated test suite designed to test the **Campus** application on `test.mersys.io`.
 
 This framework utilizes:
 - **Selenium WebDriver** for browser automation
@@ -62,8 +62,8 @@ The main goal of the project is to ensure the stability and accuracy of the `Cam
 #### Option 1: Command Line Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/CampusTest_Cucumber_Team1.git
-   cd CampusTest_Cucumber_Team1
+   git clone https://github.com/cihat-kose/campus-ui-bdd-tests.git
+   cd campus-ui-bdd-tests
    ```
 2. Install dependencies:
    ```sh
@@ -107,7 +107,7 @@ Or execute a specific runner in `src/test/java/runners/` from your IDE.
 
 ## Folder Structure
 ```
-CampusTest_Cucumber_Team1/
+campus-ui-bdd-tests/
 │
 └── src
     ├── test
