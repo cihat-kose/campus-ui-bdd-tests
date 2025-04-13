@@ -15,8 +15,8 @@ public class LoginSteps {
 
     @When("Enter username and password and click button")
     public void enterUsernameAndPasswordAndClickButton() {
-        dc.sendKeysFunction(dc.username, "turkeyts");
-        dc.sendKeysFunction(dc.password, "Techno2025.%");
+        dc.sendKeysFunction(dc.username, "Campus25");
+        dc.sendKeysFunction(dc.password, "Campus.2524");
         dc.clickFunction(dc.loginButton);
     }
 
