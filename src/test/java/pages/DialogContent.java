@@ -6,10 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
 public class DialogContent extends Parent {
+
+    private static final Logger logger = LoggerFactory.getLogger(DialogContent.class);
 
     public DialogContent() {
         PageFactory.initElements(GWD.getDriver(), this);
@@ -251,7 +255,7 @@ public class DialogContent extends Parent {
         try {
             element.click();
         } catch (Exception e) {
-            System.out.println("Bug: Element not found ");
+            logger.error("Bug: Element not found", e);
         }
     }
 }
