@@ -1,0 +1,14 @@
+# Maven build directory
+/target/
+
+# IntelliJ IDEA
+/.idea/
+
+# Logs
+*.log
+
+# Test reports
+/test-output/
+
+# macOS
+.DS_Store
